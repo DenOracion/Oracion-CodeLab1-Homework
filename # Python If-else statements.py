@@ -31,7 +31,7 @@ else:
 # 4. Even or Odd
 number = int(input("Enter a number:"))
 
-if number % 2 == 0 
+if number % 2 == 0: 
     print(f"{number} is an even number." )
 else:
     print(f"{number} is an odd number.")
@@ -39,8 +39,8 @@ else:
 # 5. Nested "if-else"
 digit = int(input("Enter a number:"))
 
-if digit >= 0 
-    if number == 0
+if digit >= 0: 
+    if number == 0:
         print("The number is zero.")
     else:
         print("The number is positive.")
